@@ -2,6 +2,7 @@
 
 First out is dula dimmer without neutrale lal QS-Zigbee-D02-TRIAC-2C-L
 
+![QS-Zigbee-D02-TRIAC-2C-L Front](IMG_20210705_122918.jpg)
 
 
 ZH Device info:
@@ -78,4 +79,21 @@ descriptor_capability_field=<DescriptorCapability.0: 0>,
   "class": "zigpy.device.Device"
 }
 ```
+Its working out of the box with ZHA and dont have any porblems with auto power of or somthing.  
+Its onlay have incluster so its not sending commands to other device as one remote only like one light with on local override (that can being overridden with commands recived).  
+On/Off and Light level is reported to ZHA nicely then changed localy or from ZHA :-))  
+Also its on real roputer and is extending the mesh nicely but the atenna is OK but its little limeted of the metal things around nit not very bad as "other" chenese normaly is having (Home).  
+### Inside:
+The without neuteal need getting current from the ground that is sonected thrue the loade. So id the load is diconected the device is dead !!  
+The device is easely opended from behind and is poping up with little force between the top and button from one side and working around.
+![QS-Zigbee-D02-TRIAC-2C-L Inside top](IMG_20210704_162722.jpg)
+Its one tuya Zigbe module iside but i cant finding it then its have other pinot then ll in the devs docks but its very likely on MG21 then the more simple switch have on minipins module with MG21 and i think thwy is not doing on new that is less capable.  
+So very likely is one more compact version of the tuya ZS3L and is having 2 X 7 plus 8 pads plus SWD for flashing and debug conection (not mounted).  
+On the PCB the module is mounted have more ciricuts on the underside but its not possible looking on if not unsoulding the 5 plus 3 pins to the main PCB.  
+The DIL 8 is one power converter for making the 3.3 V the module is needing.
 
+![QS-Zigbee-D02-TRIAC-2C-L Inside bottom](IMG_20210704_162748.jpg)
+The large IC is one Triac (of 2) and then its one optocopler under it (slam 4 pins) and 4 large power diodes to the L2.  
+Very likely is one more Triac on the other side of the PCB and one optocopler for the L1 branche.  
+The 5 pin rowe is from up to down: S1, S1, ?, ? (very likely the output to triacl 1 and 2) and GND.  
+The 3 pin row is very likely power in the middle and ground in one sede but i cant see it for 100%.  
