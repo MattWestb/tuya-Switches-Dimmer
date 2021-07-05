@@ -97,7 +97,7 @@ descriptor_capability_field=<DescriptorCapability.0: 0>,
 Its working out of the box with ZHA and dont have any porblems with auto power of or somthing.  
 Its onlay have incluster so its not sending commands to other device as one remote only like one light with on local override (that can being overridden with commands recived).  
 On/Off and Light level is reported to ZHA nicely then changed localy or from ZHA :-))  
-Also its on real router and is extending the mesh nicely but the atenna is OK but its little limeted of the metal things around nit not very bad as "other" chenese normaly is having (Home).  
+Also its on real router and is extending the mesh nicely but the atenna is OK but its little limeted of the metal things around it but not very bad as "other" chenese normaly is having (Home).  
 ### Inside:
 The without neuteal need getting current from the ground that is sonected thrue the loade. So id the load is diconected the device is dead !!  
 The device is easely opended from behind and is poping up with little force between the top and button from one side and working around.
