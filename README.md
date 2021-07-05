@@ -1,4 +1,19 @@
-# tuya-Switches-Dimmer
+# tuya Switches Dimmer
+
+| Type | Model | Gang | Neutrale | Tested in ZHA |
+|-|-|-|-|-|
+| Dimmer | QS-Zigbee-D02-TRIAC-L | 1 | No | ⬜ |
+| Dimmer | QS-Zigbee-D02-TRIAC-2C-L | 2 | No | ✅ |
+| Dimmer | QS-Zigbee-D02-TRIAC-LN | 1 | Yes | ⬜ |
+| Dimmer | QS-Zigbee-D02-TRIAC-2C-LN | 2 | Yes | ⬜ |
+| Switsh | QS-Zigbee-S05-L | 1 | No | ⬜ |
+| Switsh | QS-Zigbee-S04-C2-L | 2 | No | ⬜ |
+| Switsh | QS-Zigbee-S05-LN | 1 | Yes | ⬜ |
+| Switsh | QS-Zigbee-S04-C2-LN | 2 | Yes | ⬜ |
+
+✅ = Working OK ⬜ = Not tested but is very likely woking OK then its very ZB3 devices and no tuya clusters.
+
+The dimmers is needeing reset switches and the switches needing rocker switches for working OK.  
 
 First out is dula dimmer without neutrale lal QS-Zigbee-D02-TRIAC-2C-L
 
@@ -97,3 +112,5 @@ The large IC is one Triac (of 2) and then its one optocopler under it (slam 4 pi
 Very likely is one more Triac on the other side of the PCB and one optocopler for the L1 branche.  
 The 5 pin rowe is from up to down: S1, S1, ?, ? (very likely the output to triacl 1 and 2) and GND.  
 The 3 pin row is very likely power in the middle and ground in one sede but i cant see it for 100%.  
+  
+Then getting the OK pinout of the Zigbee module i like trying dumping it and look if tuya have start protecting there devices or not.
