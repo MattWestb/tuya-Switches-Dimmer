@@ -112,5 +112,5 @@ The large IC is one Triac (of 2) and then its one optocopler under it (slam 4 pi
 Very likely is one more Triac on the other side of the PCB and one optocopler for the L1 branche.  
 The 5 pin rowe is from up to down: S1, S1, ?, ? (very likely the output to triacl 1 and 2) and GND.  
 The 3 pin row is very likely power in the middle and ground in one sede but i cant see it for 100%.  
-  
+   
 Then getting the OK pinout of the Zigbee module i like trying dumping it and look if tuya have start protecting there devices or not.
