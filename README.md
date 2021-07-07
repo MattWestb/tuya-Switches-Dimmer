@@ -114,3 +114,7 @@ The 5 pin rowe is from up to down: S1, S1, ?, ? (very likely the output to triac
 The 3 pin row is very likely power in the middle and ground in one sede but i cant see it for 100%.  
    
 Then getting the OK pinout of the Zigbee module i like trying dumping it and look if tuya have start protecting there devices or not.
+  
+Next up [mounting one dubble dimmer in one EU wall box with Simens Delta line frame](/DELTA%20_Line/README.md) like this:
+![IMG_20210707_134345](https://user-images.githubusercontent.com/49618193/124782721-bc9b5a00-df44-11eb-8dab-d805954b4004.jpg)
+
