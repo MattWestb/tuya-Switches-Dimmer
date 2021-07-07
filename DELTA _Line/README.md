@@ -15,9 +15,20 @@ Serientaster 2 Schließer mit gemeinsamer Eingangsklemme
 EAN-Nr.	4011334030447
 
 Rockers:
->Berker 16238989
-Wippen S.1 polarweiß, glänzend
-EAN-Nr.	4011334277217
+>Berker 16238989  
+Wippen S.1 polarweiß, glänzend  
+EAN-Nr.	4011334277217  
 
 Its gets 2 diferent formats of the Rockers and the S.1 is fitting to 95% in the Simend Delta frame the other is too largs so cant being used in my case.
+![IMG_20210707_133756](https://user-images.githubusercontent.com/49618193/124777856-c753f000-df40-11eb-818f-a9c7888f27a1.jpg)
 
+Removing the 2 claws and screwes and cutting the plastick away so its enugh space for the module.![IMG_20210707_134646](https://user-images.githubusercontent.com/49618193/124778254-2154b580-df41-11eb-8c9a-4d6aa0892566.jpg)
+Also taking some milimeters away from the Delta frame on eatch side so the plastich holder is fitting in the frame and holding it to the switch.
+![IMG_20210707_141403](https://user-images.githubusercontent.com/49618193/124778302-2a458700-df41-11eb-95d7-58e265ff6dfa.jpg)
+The module is fitting very weel also with the DIN-rail monting but i removing it for getting little more space.  
+Then only needing one small clap for the 3 neutrale (smaller then easyer getting all inside without getting fire in the wall :-)) ).  
+And easy putting together in one standard EU round box and with Simens Delta frames so not need changeing  all switches and outlets and keeping the disingn. 
+![IMG_20210707_145232](https://user-images.githubusercontent.com/49618193/124779336-fae34a00-df41-11eb-8ece-27a0b6004c97.jpg)
+Right is 1 and have one dimmebal LED bulb. Left is 2 and is having one LED bulb that is not dimmebal but if working OK if not putting the dimming to low.  
+  
+Next up is putting it the wall box and removing the 2 crappy HOMA dimmers (chineese Zigbee 3 = HA1.X witth very bad range and routing) for my 6 GX53 under the kitchen kabenets and also moving them from the IKEA GW to ZHA with Billy EZSP but it must waiting until IKEA have fixing the firmware in the controllers.  
