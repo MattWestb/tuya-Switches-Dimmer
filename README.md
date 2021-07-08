@@ -10,6 +10,7 @@
 | Switsh | QS-Zigbee-S05-LN | 1 | Yes | ⬜ |
 | Switsh | QS-Zigbee-S04-C2-L | 2 | No | ⬜ |
 | Switsh | QS-Zigbee-S04-C2-LN | 2 | Yes | ⬜ |
+| Curtain | QS-Zigbee-C01 | NA | Yes | ⬜ |
 
 ✅ = Working OK ⬜ = Not tested but is very likely woking OK then its very ZB3 devices and no tuya clusters.
 
@@ -35,7 +36,9 @@ Last Seen: 2021-07-04T20:39:08
 Power Source: Mains
 ```
 
-Zigbee Device Signature:
+<details>
+  <summary>Zigbee Device Signature:</summary>
+
 ```
 2021-07-04 21:50:27 DEBUG (MainThread) [zigpy.zcl] [0x5454:1:0x0019] OTA query_next_image handler for '_TZ3000_92chsky7 TS110F': field_control=0, manufacture_id=4098, image_type=5634, current_file_version=66, hardware_version=None
 
@@ -94,6 +97,8 @@ descriptor_capability_field=<DescriptorCapability.0: 0>,
   "class": "zigpy.device.Device"
 }
 ```
+  </details>
+  
 Its working out of the box with ZHA and dont have any porblems with auto power of or somthing.  
 Its onlay have incluster so its not sending commands to other device as one remote only like one light with on local override (that can being overridden with commands recived).  
 On/Off and Light level is reported to ZHA nicely then changed localy or from ZHA :-))  
