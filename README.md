@@ -104,7 +104,7 @@ Its onlay have incluster so its not sending commands to other device as one remo
 On/Off and Light level is reported to ZHA nicely then changed localy or from ZHA :-))  
 Also its one real router and is extending the mesh nicely but the atenna is OK but its little limeted of the metal things around it but not very bad as "other" chenese normaly is having (Home).  
 ### Inside:
-The without neuteal need getting current from the ground that is sonected thrue the loade. So id the load is diconected the device is dead !!  
+The without neutal need is getting current from the ground that is conected thrue the loade. So if the load is diconected the device is dead !!  
 The device is easely opended from behind and is poping up with little force between the top and button from one side and working around.
 ![QS-Zigbee-D02-TRIAC-2C-L Inside top](IMG_20210704_162722.jpg)
 Its one tuya Zigbe module iside but i cant finding it then its have other pinot then ll in the devs docks but its very likely on MG21 then the more simple switch have on minipins module with MG21 and i think thwy is not doing on new that is less capable.  
