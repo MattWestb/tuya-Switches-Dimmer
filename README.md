@@ -113,7 +113,7 @@ On the PCB the module is mounted have more ciricuts on the underside but its not
 The DIL 8 is one power converter for making the 3.3 V the module is needing.
 
 ![QS-Zigbee-D02-TRIAC-2C-L Inside bottom](IMG_20210704_162748.jpg)
-The large IC is one Triac (of 2) and then its one optocopler under it (slam 4 pins) and 4 large power diodes to the L2.  
+The large IC is one Triac (of 2) and then its one optocopler under it (smal 4 pins IC) and 4 large power diodes to the L2.  
 Very likely is one more Triac on the other side of the PCB and one optocopler for the L1 branche.  
 The 5 pin rowe is from up to down: S1, S1, ?, ? (very likely the output to triacl 1 and 2) and GND.  
 The 3 pin row is very likely power in the middle and ground in one sede but i cant see it for 100%.  
