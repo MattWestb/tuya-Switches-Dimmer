@@ -109,6 +109,8 @@ The device is easely opended from behind and is poping up with little force betw
 ![QS-Zigbee-D02-TRIAC-2C-L Inside top](IMG_20210704_162722.jpg)
 Its one tuya Zigbe module inside but i cant finding it then its have other pinout then all in the devs docks but its very likely one MG21 then the more simple switch have one minipins module with MG21 and i think they is not doing one new that is less capable.  
 So very likely is one more compact version of the tuya ZS3L and is having 2 X 7 plus 8 pads SWD, reset, VCC and GND for flashing and debug conection (not mounted).  
+Have fund [ZSU](https://developer.tuya.com/en/docs/iot/ZSU?id=Kapoo3t83vl7c) that is having the same number of pins but its little larger but can being one compact model of it.  
+Then getting the possibilit i shall loooking id its the right pinnings afor doing  on dump of the firmware.   
 On the PCB the module is mounted have more ciricuts on the underside but its not possible looking on if not unsoulding the 5 plus 3 pins to the main PCB.  
 The DIL 8 is one power converter for making the 3.3 V the module is needing.
 
