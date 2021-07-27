@@ -2,15 +2,15 @@
 
 | Type | Model | Gang | Neutrale | Tested in ZHA |
 |-|-|-|-|-|
-| Dimmer | QS-Zigbee-D02-TRIAC-L | 1 | No | ⬜ |
-| Dimmer | QS-Zigbee-D02-TRIAC-LN | 1 | Yes | ⬜ |
-| Dimmer | QS-Zigbee-D02-TRIAC-2C-L | 2 | No | ✅ |
-| Dimmer | QS-Zigbee-D02-TRIAC-2C-LN | 2 | Yes | ⬜ |
-| Switsh | QS-Zigbee-S05-L | 1 | No | ⬜ |
-| Switsh | QS-Zigbee-S05-LN | 1 | Yes | ⬜ |
-| Switsh | QS-Zigbee-S04-C2-L | 2 | No | ⬜ |
-| Switsh | QS-Zigbee-S04-C2-LN | 2 | Yes | ⬜ |
-| Curtain | QS-Zigbee-C01 | NA | Yes | ✅ [#943](https://github.com/zigpy/zha-device-handlers/pull/943) |
+| Dimmer | QS-Zigbee-D02-TRIAC-L | 1 | No | ⬜ as TS110F |
+| Dimmer | QS-Zigbee-D02-TRIAC-LN | 1 | Yes | ⬜ as TS110F |
+| Dimmer | QS-Zigbee-D02-TRIAC-2C-L | 2 | No | ✅ as TS110F |
+| Dimmer | QS-Zigbee-D02-TRIAC-2C-LN | 2 | Yes | ⬜ as TS110F |
+| Switsh | QS-Zigbee-S05-L | 1 | No | ⬜ as TS00XX |
+| Switsh | QS-Zigbee-S05-LN | 1 | Yes | ⬜ as TS00XX |
+| Switsh | QS-Zigbee-S04-C2-L | 2 | No | ⬜ as TS00XX |
+| Switsh | QS-Zigbee-S04-C2-LN | 2 | Yes | ⬜ as TS00XX |
+| Curtain | QS-Zigbee-C01 | NA | Yes | ✅ as TS130F [#943](https://github.com/zigpy/zha-device-handlers/pull/943) |
 
 ✅ = Working OK ⬜ = Not tested but is very likely woking OK then its very ZB3 devices and no tuya clusters.
 
