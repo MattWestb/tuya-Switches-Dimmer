@@ -10,7 +10,7 @@
 | Switsh | QS-Zigbee-S05-LN | 1 | Yes | ⬜ |
 | Switsh | QS-Zigbee-S04-C2-L | 2 | No | ⬜ |
 | Switsh | QS-Zigbee-S04-C2-LN | 2 | Yes | ⬜ |
-| Curtain | QS-Zigbee-C01 | NA | Yes | ⬜ |
+| Curtain | QS-Zigbee-C01 | NA | Yes | ✅ [#943](https://github.com/zigpy/zha-device-handlers/pull/943) |
 
 ✅ = Working OK ⬜ = Not tested but is very likely woking OK then its very ZB3 devices and no tuya clusters.
 
